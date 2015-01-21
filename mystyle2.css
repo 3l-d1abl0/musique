@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body{
+/*background-image:url(n1.jpg); */
+background-attachment:fixed;
+font-family:calibri;
+color:rgb(213,210,250);
+background-image:url(brick-wall.jpg);
+}
+a{
+color:rgb(93,210,233);
+text-decoration:none;
+}
+#wrap{
+
+	
+	width:940px;
+	height:auto;;
+	padding:10px;
+	margin:0 auto;  
+	background:#b7a379;
+  	border:1px dotted black;
+
+}
+#bookheader{
+	width:940px;
+	height:60px;
+	margin-bottom:10px;
+	background:grey;
+	background-image:url(bookbanner1.jpg);
+}
+#logo{
+
+	width:185px;
+	height:60px;
+		/*border:1px solid black;*/
+}
+.hh{
+	float:left;
+}
+#type{
+	height:60px;
+	width:594px;
+	/*border-right:1px solid black;
+	border-left:1px solid black;
+	border:1px solid black;*/
+}
+#contact{
+    height:60px;
+	width:160px;
+	
+	/*border:1px solid black;*/
+}
+#main{
+	
+   	background:grey; 
+	width:940px;
+	padding:0px;
+	/*min-height:770px;*/ 
+	height:120%;
+	overflow:auto;
+	/*overflow:auto;*/
+	/* height:900px; */
+} 
+table,th,td
+{
+ font-size:24px;
+ color:rgb(123,188,203);
+}
+td,th
+{
+ padding:10px;
+}
+input[type="submit"]
+{
+height:30px;
+width:100px;
+}
